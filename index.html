@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>weather</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+</head>
+<body>
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top justify-content-center">
+    <div class="container-fluid justify-content-center">
+      <a class="navbar-brand" href="#">WeatherApp</a>
+    </div>
+  </nav>
+
+  <div class="container-fluid " style="margin-top: 100px;">
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center">
+        <input type="text" class="form-control mb-3 input" id="input_city" placeholder="Enter city name" default="Ahmedabad">
+        <button class="btn btn-light">Search</button>
+      </div>
+    </div>
+
+    <div class="row justify-content-center weather-card animate__animated animate__fadeInUp animate__delay-1s" id="weather-background">
+      
+      <div class="col-md-6 weather-card">
+        <h2 id="city_name">City Name</h2>
+        <h1 id="cur_temp">24°C</h1>
+        <p id="icon">☀</p>
+        <p id="weather_cond">c</p>
+        <p id="todate">Tuesday, April 16</p>
+      </div>
+    </div>
+
+    <div id="forecast" class="d-flex overflow-auto gap-3 py-2 justify-content-center">
+      <div class="col-6 col-md-2 forecast-card">
+        <p>Wed</p>
+        <p> .</p>
+        <p>25° / 17°</p>
+      </div>
+      <div class="col-6 col-md-2 forecast-card">
+        <p>Thu</p>
+        <p>☁</p>
+        <p>22° / 16°</p>
+      </div>
+      <div class="col-6 col-md-2 forecast-card">
+        <p>Fri</p>
+        <p>☔</p>
+        <p>20° / 15°</p>
+      </div>
+      <div class="col-6 col-md-2 forecast-card">
+        <p>Sat</p>
+        <p>☀</p>
+        <p>26° / 18°</p>
+      </div>
+      <div class="col-6 col-md-2 forecast-card">
+        <p>Sun</p>
+        <p>☁</p>
+        <p>23° / 17°</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+</body>
+</html>
